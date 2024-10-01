@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .label {
+      @apply text-orange-500 font-bold ml-2 pb-2
+    }
+
+    .input {
+        @apply ml-2 md:w-36 border-blue-300 border rounded-md
+    }
+    .formDiv {
+        @apply py-4 flex flex-col w-full justify-start items-start
+    }
+  }
